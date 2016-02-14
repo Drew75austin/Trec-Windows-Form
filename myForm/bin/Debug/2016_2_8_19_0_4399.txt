@@ -1,0 +1,3 @@
+2/8/2016 7:00:57 PM
+XML loaded into form: asdf
+REQUEST XML: <?xml version='1.0' encoding='UTF-8'?><soapenv:Envelope xmlns:soapenv='http://schemas.xmlsoap.org/soap/envelope/' xmlns:xsd='http://www.w3.org/2001/XMLSchema' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'><soapenv:Header><ValidationSoapHeader xmlns='http://www.trec.state.tx.us/ProcessRoster'><DevToken>PR_v3!</DevToken></ValidationSoapHeader></soapenv:Header><soapenv:Body><ProcessRoster xmlns='http://www.trec.state.tx.us/ProcessRoster'><xmlReq>&lt;?xml version='1.0' encoding='UTF-8'?&gt;&lt;Transmission xmlns:xsd='http://www.w3.org/2001/XMLSchema' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'&gt;asdf&lt;/Transmission&gt;</xmlReq></ProcessRoster></soapenv:Body></soapenv:Envelope>

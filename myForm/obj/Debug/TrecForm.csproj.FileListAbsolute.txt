@@ -1,0 +1,13 @@
+c:\users\jeannette\documents\visual studio 2013\Projects\myForm\myForm\obj\Debug\myForm.TrecForm.resources
+c:\users\jeannette\documents\visual studio 2013\Projects\myForm\myForm\obj\Debug\myForm.Properties.Resources.resources
+c:\users\jeannette\documents\visual studio 2013\Projects\myForm\myForm\obj\Debug\TrecForm.csproj.GenerateResource.Cache
+c:\users\jeannette\documents\visual studio 2013\Projects\myForm\myForm\obj\Debug\TrecForm.csprojResolveAssemblyReference.cache
+c:\users\jeannette\documents\visual studio 2013\Projects\myForm\myForm\bin\Debug\TrecForm.exe.config
+c:\users\jeannette\documents\visual studio 2013\Projects\myForm\myForm\bin\Debug\TrecForm.exe.manifest
+c:\users\jeannette\documents\visual studio 2013\Projects\myForm\myForm\bin\Debug\TrecForm.application
+c:\users\jeannette\documents\visual studio 2013\Projects\myForm\myForm\bin\Debug\TrecForm.exe
+c:\users\jeannette\documents\visual studio 2013\Projects\myForm\myForm\bin\Debug\TrecForm.pdb
+c:\users\jeannette\documents\visual studio 2013\Projects\myForm\myForm\obj\Debug\TrecForm.exe.manifest
+c:\users\jeannette\documents\visual studio 2013\Projects\myForm\myForm\obj\Debug\TrecForm.application
+c:\users\jeannette\documents\visual studio 2013\Projects\myForm\myForm\obj\Debug\TrecForm.exe
+c:\users\jeannette\documents\visual studio 2013\Projects\myForm\myForm\obj\Debug\TrecForm.pdb

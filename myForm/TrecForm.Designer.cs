@@ -35,8 +35,8 @@
             this.ID = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.PROV = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.CRSE = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.CSTARTDATE = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.CDATE = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.CSTARTDATE = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.LICENSE = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.NAME = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.RESPONSE = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
@@ -64,7 +64,7 @@
             // 
             // btnSubmit
             // 
-            this.btnSubmit.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSubmit.Font = new System.Drawing.Font("Verdana", 9.75F);
             this.btnSubmit.Location = new System.Drawing.Point(941, 556);
             this.btnSubmit.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnSubmit.Name = "btnSubmit";
@@ -93,12 +93,12 @@
             this.ID,
             this.PROV,
             this.CRSE,
-            this.CSTARTDATE,
             this.CDATE,
+            this.CSTARTDATE,
             this.LICENSE,
             this.NAME,
             this.RESPONSE});
-            this.listViewResponse.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.listViewResponse.Font = new System.Drawing.Font("Verdana", 9.75F);
             this.listViewResponse.Location = new System.Drawing.Point(13, 20);
             this.listViewResponse.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.listViewResponse.Name = "listViewResponse";
@@ -122,17 +122,16 @@
             this.CRSE.Text = "COURSE";
             this.CRSE.Width = 84;
             // 
-            // CSTARTDATE
-            // 
-            this.CSTARTDATE.DisplayIndex = 4;
-            this.CSTARTDATE.Text = "START";
-            this.CSTARTDATE.Width = 95;
-            // 
             // CDATE
             // 
-            this.CDATE.DisplayIndex = 3;
+            this.CDATE.DisplayIndex = 4;
             this.CDATE.Text = "COMPLETION";
             this.CDATE.Width = 119;
+            // 
+            // CSTARTDATE
+            // 
+            this.CSTARTDATE.Text = "START";
+            this.CSTARTDATE.Width = 95;
             // 
             // LICENSE
             // 
@@ -171,7 +170,7 @@
             // 
             // btnSave
             // 
-            this.btnSave.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSave.Font = new System.Drawing.Font("Verdana", 9.75F);
             this.btnSave.Location = new System.Drawing.Point(421, 113);
             this.btnSave.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnSave.Name = "btnSave";
@@ -183,7 +182,7 @@
             // 
             // btnUnlock
             // 
-            this.btnUnlock.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnUnlock.Font = new System.Drawing.Font("Verdana", 9.75F);
             this.btnUnlock.Location = new System.Drawing.Point(343, 113);
             this.btnUnlock.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnUnlock.Name = "btnUnlock";
@@ -196,7 +195,7 @@
             // lblServiceMethod
             // 
             this.lblServiceMethod.AutoSize = true;
-            this.lblServiceMethod.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblServiceMethod.Font = new System.Drawing.Font("Verdana", 9.75F);
             this.lblServiceMethod.Location = new System.Drawing.Point(12, 59);
             this.lblServiceMethod.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblServiceMethod.Name = "lblServiceMethod";
@@ -207,6 +206,7 @@
             // textBoxDevToken
             // 
             this.textBoxDevToken.Enabled = false;
+            this.textBoxDevToken.Font = new System.Drawing.Font("Verdana", 9.75F);
             this.textBoxDevToken.Location = new System.Drawing.Point(140, 84);
             this.textBoxDevToken.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.textBoxDevToken.Name = "textBoxDevToken";
@@ -216,7 +216,7 @@
             // lblDevToken
             // 
             this.lblDevToken.AutoSize = true;
-            this.lblDevToken.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblDevToken.Font = new System.Drawing.Font("Verdana", 9.75F);
             this.lblDevToken.Location = new System.Drawing.Point(12, 91);
             this.lblDevToken.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblDevToken.Name = "lblDevToken";
@@ -227,7 +227,7 @@
             // lblServiceURL
             // 
             this.lblServiceURL.AutoSize = true;
-            this.lblServiceURL.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblServiceURL.Font = new System.Drawing.Font("Verdana", 9.75F);
             this.lblServiceURL.Location = new System.Drawing.Point(12, 27);
             this.lblServiceURL.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblServiceURL.Name = "lblServiceURL";
@@ -238,6 +238,7 @@
             // textBoxMethod
             // 
             this.textBoxMethod.Enabled = false;
+            this.textBoxMethod.Font = new System.Drawing.Font("Verdana", 9.75F);
             this.textBoxMethod.Location = new System.Drawing.Point(140, 52);
             this.textBoxMethod.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.textBoxMethod.Name = "textBoxMethod";
@@ -247,6 +248,7 @@
             // txtBoxServiceURL
             // 
             this.txtBoxServiceURL.Enabled = false;
+            this.txtBoxServiceURL.Font = new System.Drawing.Font("Verdana", 9.75F);
             this.txtBoxServiceURL.Location = new System.Drawing.Point(140, 20);
             this.txtBoxServiceURL.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.txtBoxServiceURL.Name = "txtBoxServiceURL";
@@ -256,7 +258,7 @@
             // groupBox3
             // 
             this.groupBox3.Controls.Add(this.xmlSubmission);
-            this.groupBox3.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox3.Font = new System.Drawing.Font("Verdana", 9.75F);
             this.groupBox3.Location = new System.Drawing.Point(540, 12);
             this.groupBox3.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.groupBox3.Name = "groupBox3";
@@ -268,7 +270,7 @@
             // 
             // xmlSubmission
             // 
-            this.xmlSubmission.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
+            this.xmlSubmission.Font = new System.Drawing.Font("Verdana", 9.75F);
             this.xmlSubmission.Location = new System.Drawing.Point(7, 22);
             this.xmlSubmission.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.xmlSubmission.Name = "xmlSubmission";
@@ -280,7 +282,7 @@
             // lblTrecFiles
             // 
             this.lblTrecFiles.AutoSize = true;
-            this.lblTrecFiles.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTrecFiles.Font = new System.Drawing.Font("Verdana", 9.75F);
             this.lblTrecFiles.Location = new System.Drawing.Point(56, 590);
             this.lblTrecFiles.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblTrecFiles.Name = "lblTrecFiles";
@@ -295,16 +297,17 @@
             // lblCnt
             // 
             this.lblCnt.AutoSize = true;
+            this.lblCnt.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblCnt.Location = new System.Drawing.Point(21, 151);
             this.lblCnt.Name = "lblCnt";
-            this.lblCnt.Size = new System.Drawing.Size(0, 13);
+            this.lblCnt.Size = new System.Drawing.Size(0, 16);
             this.lblCnt.TabIndex = 5;
             this.lblCnt.Visible = false;
             // 
             // TimerLabel
             // 
             this.TimerLabel.AutoSize = true;
-            this.TimerLabel.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TimerLabel.Font = new System.Drawing.Font("Verdana", 9.75F);
             this.TimerLabel.Location = new System.Drawing.Point(56, 556);
             this.TimerLabel.MaximumSize = new System.Drawing.Size(250, 0);
             this.TimerLabel.Name = "TimerLabel";
@@ -315,7 +318,7 @@
             // myCntLabel
             // 
             this.myCntLabel.AutoSize = true;
-            this.myCntLabel.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.myCntLabel.Font = new System.Drawing.Font("Verdana", 9.75F);
             this.myCntLabel.Location = new System.Drawing.Point(151, 556);
             this.myCntLabel.MaximumSize = new System.Drawing.Size(20, 0);
             this.myCntLabel.Name = "myCntLabel";

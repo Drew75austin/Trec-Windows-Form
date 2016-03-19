@@ -241,6 +241,7 @@ namespace myForm
                 TimerLabel.Text = "Time elapsed in seconds: " + String.Format("{0:0.0}", myCounter);
             }
         }
+     
     }
 }
 

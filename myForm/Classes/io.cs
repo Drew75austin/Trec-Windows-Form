@@ -13,10 +13,10 @@ namespace myForm.Classes
                 Directory.CreateDirectory("c:\\TrecFiles");
             }
 
-            requestData = requestData.Replace("&lt;","<");
-            requestData = requestData.Replace("&gt;", ">");
-            xmlString = xmlString.Replace("&lt;", "<");
-            xmlString = xmlString.Replace("&gt;", ">");
+            //requestData = requestData.Replace("&lt;","<");
+            //requestData = requestData.Replace("&gt;", ">");
+            //xmlString = xmlString.Replace("&lt;", "<");
+            //xmlString = xmlString.Replace("&gt;", ">");
 
             //Save a file to for the request information so user can keep a history of XML submissions to the TREC service.
             using (StreamWriter writer = new StreamWriter("c:\\TrecFiles\\" + theDateTime + ".txt"))

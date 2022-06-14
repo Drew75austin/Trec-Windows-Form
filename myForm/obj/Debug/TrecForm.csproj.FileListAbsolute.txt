@@ -11,3 +11,21 @@ c:\users\jeannette\documents\visual studio 2013\Projects\myForm\myForm\obj\Debug
 c:\users\jeannette\documents\visual studio 2013\Projects\myForm\myForm\obj\Debug\TrecForm.application
 c:\users\jeannette\documents\visual studio 2013\Projects\myForm\myForm\obj\Debug\TrecForm.exe
 c:\users\jeannette\documents\visual studio 2013\Projects\myForm\myForm\obj\Debug\TrecForm.pdb
+C:\Users\andre\source\repos\Trec-Windows-Form1\myForm\bin\Debug\TrecForm.exe.config
+C:\Users\andre\source\repos\Trec-Windows-Form1\myForm\bin\Debug\TrecForm.exe.manifest
+C:\Users\andre\source\repos\Trec-Windows-Form1\myForm\bin\Debug\TrecForm.application
+C:\Users\andre\source\repos\Trec-Windows-Form1\myForm\bin\Debug\TrecForm.exe
+C:\Users\andre\source\repos\Trec-Windows-Form1\myForm\bin\Debug\TrecForm.pdb
+C:\Users\andre\source\repos\Trec-Windows-Form1\myForm\obj\Debug\TrecForm.csproj.AssemblyReference.cache
+C:\Users\andre\source\repos\Trec-Windows-Form1\myForm\obj\Debug\TrecForm.csproj.SuggestedBindingRedirects.cache
+C:\Users\andre\source\repos\Trec-Windows-Form1\myForm\obj\Debug\myForm.TrecForm.resources
+C:\Users\andre\source\repos\Trec-Windows-Form1\myForm\obj\Debug\myForm.Properties.Resources.resources
+C:\Users\andre\source\repos\Trec-Windows-Form1\myForm\obj\Debug\TrecForm.csproj.GenerateResource.cache
+C:\Users\andre\source\repos\Trec-Windows-Form1\myForm\obj\Debug\TrecForm.csproj.CoreCompileInputs.cache
+C:\Users\andre\source\repos\Trec-Windows-Form1\myForm\obj\Debug\TrecForm.exe.manifest
+C:\Users\andre\source\repos\Trec-Windows-Form1\myForm\obj\Debug\TrecForm.application
+C:\Users\andre\source\repos\Trec-Windows-Form1\myForm\obj\Debug\TrecForm.exe
+C:\Users\andre\source\repos\Trec-Windows-Form1\myForm\obj\Debug\TrecForm.pdb
+C:\Users\andre\source\repos\Trec-Windows-Form1\myForm\bin\Debug\Newtonsoft.Json.dll
+C:\Users\andre\source\repos\Trec-Windows-Form1\myForm\bin\Debug\Newtonsoft.Json.xml
+C:\Users\andre\source\repos\Trec-Windows-Form1\myForm\obj\Debug\TrecForm.csproj.CopyComplete

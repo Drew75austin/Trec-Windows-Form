@@ -2,14 +2,14 @@
 <SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="myForm.Properties" GeneratedClassName="Settings">
   <Profiles />
   <Settings>
-    <Setting Name="ServerURL" Type="System.String" Scope="User">
-      <Value Profile="(Default)">https://www.trec.state.tx.us/ProcessEdRoster/Service1.asmx?wsd</Value>
-    </Setting>
     <Setting Name="DevPWD" Type="System.String" Scope="User">
       <Value Profile="(Default)">PR_v3!</Value>
     </Setting>
     <Setting Name="TrecServiceMethod" Type="System.String" Scope="User">
       <Value Profile="(Default)">http://www.trec.state.tx.us/ProcessRoster</Value>
+    </Setting>
+    <Setting Name="ServerURL" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://www2.trec.state.tx.us/ProcessEdRosterv2/Service1.asmx</Value>
     </Setting>
   </Settings>
 </SettingsFile>

@@ -65,7 +65,7 @@
             // btnSubmit
             // 
             this.btnSubmit.Font = new System.Drawing.Font("Verdana", 9.75F);
-            this.btnSubmit.Location = new System.Drawing.Point(941, 556);
+            this.btnSubmit.Location = new System.Drawing.Point(1038, 556);
             this.btnSubmit.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnSubmit.Name = "btnSubmit";
             this.btnSubmit.Size = new System.Drawing.Size(160, 47);
@@ -82,7 +82,7 @@
             this.groupBox1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Padding = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.groupBox1.Size = new System.Drawing.Size(1098, 373);
+            this.groupBox1.Size = new System.Drawing.Size(1192, 373);
             this.groupBox1.TabIndex = 1;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Response Data";
@@ -99,10 +99,11 @@
             this.NAME,
             this.RESPONSE});
             this.listViewResponse.Font = new System.Drawing.Font("Verdana", 9.75F);
+            this.listViewResponse.HideSelection = false;
             this.listViewResponse.Location = new System.Drawing.Point(13, 20);
             this.listViewResponse.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.listViewResponse.Name = "listViewResponse";
-            this.listViewResponse.Size = new System.Drawing.Size(1073, 347);
+            this.listViewResponse.Size = new System.Drawing.Size(1171, 347);
             this.listViewResponse.TabIndex = 3;
             this.listViewResponse.UseCompatibleStateImageBehavior = false;
             this.listViewResponse.View = System.Windows.Forms.View.Details;
@@ -124,7 +125,6 @@
             // 
             // CDATE
             // 
-            this.CDATE.DisplayIndex = 4;
             this.CDATE.Text = "COMPLETION";
             this.CDATE.Width = 119;
             // 
@@ -136,17 +136,17 @@
             // LICENSE
             // 
             this.LICENSE.Text = "LICENSE #";
-            this.LICENSE.Width = 121;
+            this.LICENSE.Width = 115;
             // 
             // NAME
             // 
             this.NAME.Text = "NAME";
-            this.NAME.Width = 210;
+            this.NAME.Width = 317;
             // 
             // RESPONSE
             // 
             this.RESPONSE.Text = "RESPONSE";
-            this.RESPONSE.Width = 320;
+            this.RESPONSE.Width = 318;
             // 
             // groupBox2
             // 
@@ -199,7 +199,7 @@
             this.lblServiceMethod.Location = new System.Drawing.Point(12, 59);
             this.lblServiceMethod.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblServiceMethod.Name = "lblServiceMethod";
-            this.lblServiceMethod.Size = new System.Drawing.Size(111, 16);
+            this.lblServiceMethod.Size = new System.Drawing.Size(110, 16);
             this.lblServiceMethod.TabIndex = 8;
             this.lblServiceMethod.Text = "Service Method";
             // 
@@ -220,7 +220,7 @@
             this.lblDevToken.Location = new System.Drawing.Point(12, 91);
             this.lblDevToken.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblDevToken.Name = "lblDevToken";
-            this.lblDevToken.Size = new System.Drawing.Size(78, 16);
+            this.lblDevToken.Size = new System.Drawing.Size(76, 16);
             this.lblDevToken.TabIndex = 7;
             this.lblDevToken.Text = "Dev Token";
             // 
@@ -231,7 +231,7 @@
             this.lblServiceURL.Location = new System.Drawing.Point(12, 27);
             this.lblServiceURL.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblServiceURL.Name = "lblServiceURL";
-            this.lblServiceURL.Size = new System.Drawing.Size(86, 16);
+            this.lblServiceURL.Size = new System.Drawing.Size(85, 16);
             this.lblServiceURL.TabIndex = 6;
             this.lblServiceURL.Text = "Service URL";
             // 
@@ -263,7 +263,7 @@
             this.groupBox3.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.groupBox3.Name = "groupBox3";
             this.groupBox3.Padding = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.groupBox3.Size = new System.Drawing.Size(571, 143);
+            this.groupBox3.Size = new System.Drawing.Size(666, 143);
             this.groupBox3.TabIndex = 3;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "XML Request";
@@ -274,7 +274,7 @@
             this.xmlSubmission.Location = new System.Drawing.Point(7, 22);
             this.xmlSubmission.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.xmlSubmission.Name = "xmlSubmission";
-            this.xmlSubmission.Size = new System.Drawing.Size(553, 114);
+            this.xmlSubmission.Size = new System.Drawing.Size(651, 114);
             this.xmlSubmission.TabIndex = 0;
             this.xmlSubmission.Text = "";
             this.xmlSubmission.MouseDown += new System.Windows.Forms.MouseEventHandler(this.xmlSubmission_MouseDown_1);
@@ -311,7 +311,7 @@
             this.TimerLabel.Location = new System.Drawing.Point(56, 556);
             this.TimerLabel.MaximumSize = new System.Drawing.Size(250, 0);
             this.TimerLabel.Name = "TimerLabel";
-            this.TimerLabel.Size = new System.Drawing.Size(180, 16);
+            this.TimerLabel.Size = new System.Drawing.Size(179, 16);
             this.TimerLabel.TabIndex = 6;
             this.TimerLabel.Text = "Time elapsed in seconds: ";
             // 
@@ -322,7 +322,7 @@
             this.myCntLabel.Location = new System.Drawing.Point(151, 556);
             this.myCntLabel.MaximumSize = new System.Drawing.Size(20, 0);
             this.myCntLabel.Name = "myCntLabel";
-            this.myCntLabel.Size = new System.Drawing.Size(16, 32);
+            this.myCntLabel.Size = new System.Drawing.Size(20, 16);
             this.myCntLabel.TabIndex = 7;
             this.myCntLabel.Text = ".5";
             this.myCntLabel.Visible = false;
@@ -336,7 +336,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1159, 618);
+            this.ClientSize = new System.Drawing.Size(1234, 618);
             this.Controls.Add(this.myCntLabel);
             this.Controls.Add(this.TimerLabel);
             this.Controls.Add(this.lblCnt);

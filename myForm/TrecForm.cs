@@ -3,7 +3,7 @@ using System.Windows.Forms;
 using myForm.Classes;
 using System.Xml;
 using System.ComponentModel;
-
+    
 namespace myForm
 {
     public partial class TrecForm : Form
@@ -16,6 +16,7 @@ namespace myForm
             lblTrecFiles.Text = "";
             txtBoxServiceURL.Text = Properties.Settings.Default.ServerURL;
             textBoxDevToken.Text = Properties.Settings.Default.DevPWD;
+            textBoxMethod.DataBindings.Clear(); 
             textBoxMethod.Text = Properties.Settings.Default.TrecServiceMethod;
         }
 
@@ -136,7 +137,7 @@ namespace myForm
                                 ListViewItem lvi = new ListViewItem(cnt.ToString());
                                 foreach (XmlNode items in item)
                                 {
-                                    if (items.Name != "InstructorDetailData")
+                                    if (items.Name != "InstructorDetailData" && items.Name != "IN_PROVTYPE"  && items.Name != "IN_DELIVERYTYPE" && items.Name != "IN_LICENSETYPE" && items.Name != "IN_XENT")
                                     {
                                         lvi.SubItems.Add(items.InnerText);
                                         io.logDataSet("," + items.InnerText, lblCnt.Text);
@@ -241,7 +242,6 @@ namespace myForm
                 TimerLabel.Text = "Time elapsed in seconds: " + String.Format("{0:0.0}", myCounter);
             }
         }
-     
     }
 }
 

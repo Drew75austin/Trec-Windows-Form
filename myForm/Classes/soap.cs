@@ -62,11 +62,11 @@ namespace myForm.Classes
         {
             XmlDocument soapEnvelop = new XmlDocument();
 
-            requestData = requestData.Replace("<", "&lt;");
-            requestData = requestData.Replace(">", "&gt;");
+            //requestData = requestData.Replace("<", "&lt;");
+            //requestData = requestData.Replace(">", "&gt;");
             
-            xmlString = "<?xml version='1.0' encoding='UTF-8'?><soapenv:Envelope xmlns:soapenv='http://schemas.xmlsoap.org/soap/envelope/' xmlns:xsd='http://www.w3.org/2001/XMLSchema' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'><soapenv:Header><ValidationSoapHeader xmlns='" + method + "'><DevToken>" + token + "</DevToken></ValidationSoapHeader></soapenv:Header><soapenv:Body><ProcessRoster xmlns='" + method + "'><xmlReq>&lt;?xml version='1.0' encoding='UTF-8'?&gt;&lt;Transmission xmlns:xsd='http://www.w3.org/2001/XMLSchema' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'&gt;" + requestData + "&lt;/Transmission&gt;</xmlReq></ProcessRoster></soapenv:Body></soapenv:Envelope>";
-            
+            xmlString = "<soap:Envelope soap:encodingStyle='http://schemas.xmlsoap.org/soap/encoding/' xmlns:soap='http://schemas.xmlsoap.org/soap/envelope/' xmlns:soapenc='http://schemas.xmlsoap.org/soap/encoding/' xmlns:xsd='http://www.w3.org/2001/XMLSchema' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'><soap:Header><ValidationSoapHeader xmlns='" + method + "'><DevToken>" + token + "</DevToken></ValidationSoapHeader></soap:Header><soap:Body><ProcessRoster xmlns='" + method + "'><xmlReq><![CDATA[<Transmission>" + requestData + "</Transmission>]]></xmlReq></ProcessRoster></soap:Body></soap:Envelope>";
+
             soapEnvelop.LoadXml(xmlString);
             
             return soapEnvelop;

@@ -27,7 +27,3 @@ To run the application, build the project in Visual Studio and run the `TrecWind
 
 - Andrew Smith
 
-## Acknowledgments
-
-- This project was completed as part of a course on information retrieval.
-- The TREC query format is a standard format used in information retrieval research.

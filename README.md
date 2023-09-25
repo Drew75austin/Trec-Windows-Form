@@ -25,7 +25,7 @@ To run the application, build the project in Visual Studio and run the `TrecWind
 
 ## Authors
 
-- Drew Austin
+- Andrew Smith
 
 ## Acknowledgments
 
